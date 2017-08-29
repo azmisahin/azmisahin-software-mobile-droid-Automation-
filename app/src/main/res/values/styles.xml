@@ -1,0 +1,35 @@
+<!--
+    ████████████████████████████████████████████████████████████████████████████████████████████████████
+    * Name          :   Android Web Application
+    * Version       :   build.grade.versionCode
+    * Description   :   Android Studio Mobile Application
+    * Author        :   Azmi ŞAHİN <bilgi@azmisahin.com>
+    * Licence       :   MIT
+    ════════════════════════════════════════════════════════════════════════════════════════════════════
+    * Package       :   No Package / Web Application
+    * Repository    :   https://github.com/azmisahin/com.domain.mobile.droid.web.git
+    * Homepage      :   https://azmisahin.github.io
+    ████████████████████████████████████████████████████████████████████████████████████████████████████
+    -->
+<resources>
+    <!-- Base application theme. -->
+    <style name="App.Theme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/bg.primary</item>
+        <item name="colorPrimaryDark">@color/bg.info</item>
+        <item name="colorAccent">@color/bg.success</item>
+    </style>
+
+    <style name="App.Theme.Primary" parent="App.Theme">
+        <item name="android:actionBarStyle">@style/App.Theme.ActionBar</item>
+        <item name="android:windowActionBarOverlay">true</item>
+        <item name="android:windowBackground">@null</item>
+        <item name="metaButtonBarStyle">?android:attr/buttonBarStyle</item>
+        <item name="metaButtonBarButtonStyle">?android:attr/buttonBarButtonStyle</item>
+    </style>
+
+    <style name="App.Theme.ActionBar" parent="Widget.AppCompat.ActionBar">
+        <item name="android:background">@color/bg.info</item>
+    </style>
+
+</resources>

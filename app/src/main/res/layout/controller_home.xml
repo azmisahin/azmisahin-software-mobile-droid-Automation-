@@ -1,0 +1,52 @@
+<!--
+    ████████████████████████████████████████████████████████████████████████████████████████████████████
+    * Name          :   Android Web Application
+    * Version       :   build.grade.versionCode
+    * Description   :   Android Studio Mobile Application
+    * Author        :   Azmi ŞAHİN <bilgi@azmisahin.com>
+    * Licence       :   MIT
+    ════════════════════════════════════════════════════════════════════════════════════════════════════
+    * Package       :   No Package / Web Application
+    * Repository    :   https://github.com/azmisahin/com.domain.mobile.droid.web.git
+    * Homepage      :   https://azmisahin.github.io
+    ████████████████████████████████████████████████████████████████████████████████████████████████████
+    -->
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#0099cc"
+    tools:context="com.azmisahin.mobile.droid.web.Home">
+    <TextView
+        android:id="@+id/fullscreen_content"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:keepScreenOn="true"
+        android:text="@string/App.Content.Home.Content"
+        android:textColor="#33b5e5"
+        android:textSize="50sp"
+        android:textStyle="bold" />
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fitsSystemWindows="true">
+        <LinearLayout
+            android:id="@+id/fullscreen_content_controls"
+            style="?metaButtonBarStyle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom|center_horizontal"
+            android:background="@color/bg.primary"
+            android:orientation="horizontal"
+            tools:ignore="UselessParent">
+            <Button
+                android:id="@+id/Home.Button"
+                style="?metaButtonBarButtonStyle"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/App.Content.Home.Button" />
+        </LinearLayout>
+    </FrameLayout>
+</FrameLayout>

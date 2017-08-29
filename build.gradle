@@ -1,0 +1,29 @@
+/*
+    ████████████████████████████████████████████████████████████████████████████████████████████████████
+    * Name          :   Android Web Application
+    * Version       :   build.grade.versionCode
+    * Description   :   Android Studio Mobile Application
+    * Author        :   Azmi ŞAHİN <bilgi@azmisahin.com>
+    * Licence       :   MIT
+    ════════════════════════════════════════════════════════════════════════════════════════════════════
+    * Package       :   No Package / Web Application
+    * Repository    :   https://github.com/azmisahin/com.domain.mobile.droid.web.git
+    * Homepage      :   https://azmisahin.github.io
+    ████████████████████████████████████████████████████████████████████████████████████████████████████
+*/
+buildscript {
+    repositories {
+        jcenter()
+    }
+    dependencies {
+        classpath 'com.android.tools.build:gradle:2.3.3'
+    }
+}
+allprojects {
+    repositories {
+        jcenter()
+    }
+}
+task clean(type: Delete) {
+    delete rootProject.buildDir
+}

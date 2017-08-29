@@ -1,0 +1,51 @@
+<!--
+    ████████████████████████████████████████████████████████████████████████████████████████████████████
+    * Name          :   Android Web Application
+    * Version       :   build.grade.versionCode
+    * Description   :   Android Studio Mobile Application
+    * Author        :   Azmi ŞAHİN <bilgi@azmisahin.com>
+    * Licence       :   MIT
+    ════════════════════════════════════════════════════════════════════════════════════════════════════
+    * Package       :   No Package / Web Application
+    * Repository    :   https://github.com/azmisahin/com.domain.mobile.droid.web.git
+    * Homepage      :   https://azmisahin.github.io
+    ████████████████████████████████████████████████████████████████████████████████████████████████████
+    -->
+<resources>
+    <!-- Application -->
+    <string name="App.Name">azmisahin.com</string>
+    <string name="App.Version">1.0</string>
+    <string name="App.Build">1</string>
+    <string name="App.Domain.Name">azmisahin.com</string>
+    <string name="App.Domain.Protocol">http</string>
+    <string name="App.Domain.Api.Address">ap.azmisahin.com</string>
+    <string name="App.Domain.Api.Application.Name">droid</string>
+    <string name="App.Domain.Api.Application.Version">v1</string>
+    <string name="App.Domain.Api.Application.Key">$screekkey$</string>
+
+    <!-- Application -->
+    <string name="App.Words.Yes">Yes</string>
+    <string name="App.Words.No">No</string>
+    <string name="App.Words.Ok">Ok</string>
+    <string name="App.Words.Cancel">Cancel</string>
+    <string name="App.Words.Warning">Warning</string>
+    <string name="App.Words.Confirm">Confirm</string>
+    <string name="App.Words.Welcome">Welcome</string>
+    <string name="App.Words.Detail">Detail</string>
+    <string name="App.Words.New">New</string>
+
+    <!-- Application Culture -->
+    <string name="App.Culture.Name">EN</string>
+    <string name="App.Culture.Currency.Symbol">USD</string>
+    <string name="App.Culture.Currency.Unit">Pcs</string>
+    <string name="App.Culture.Currency.Format">#.###.###,##</string>
+    <string name="App.Culture.Date.Format">DD.MM.YYYY</string>
+
+    <!-- Application Message -->
+    <string name="App.Message.Error.Network">Check internet connection!</string>
+    <string name="App.Message.Confirm.Process">Confirm process</string>
+
+    <!-- Application Content -->
+    <string name="App.Content.Home.Button">Most Viewed</string>
+    <string name="App.Content.Home.Content">azmisahin.com</string>
+</resources>

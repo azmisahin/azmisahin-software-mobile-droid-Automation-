@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Application Domain -->
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.domain.mobile.droid.web">
+
+    <!-- Application Permission -->
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"/>
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION"/>
+    <uses-permission android:name="android.permission.KILL_BACKGROUND_PROCESSES" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <!-- Application -->
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/App.Name"
+        android:supportsRtl="true"
+        android:theme="@style/App.Theme">
+
+        <!-- Home Controller -->
+        <activity
+            android:name=".Home"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:label="@string/App.Name"
+            android:theme="@style/App.Theme.Primary">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

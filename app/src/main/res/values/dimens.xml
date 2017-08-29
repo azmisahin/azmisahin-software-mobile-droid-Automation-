@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    ████████████████████████████████████████████████████████████████████████████████████████████████████
+    * Name          :   Android Web Application
+    * Version       :   build.grade.versionCode
+    * Description   :   Android Studio Mobile Application
+    * Author        :   Azmi ŞAHİN <bilgi@azmisahin.com>
+    * Licence       :   MIT
+    ════════════════════════════════════════════════════════════════════════════════════════════════════
+    * Package       :   No Package / Web Application
+    * Repository    :   https://github.com/azmisahin/com.domain.mobile.droid.web.git
+    * Homepage      :   https://azmisahin.github.io
+    ████████████████████████████████████████████████████████████████████████████████████████████████████
+    -->
+<resources>
+    <!-- Application Size -->
+    <dimen name="extra.small">9sp</dimen>
+    <dimen name="default.small">11sp</dimen>
+    <dimen name="default.size">14sp</dimen>
+    <dimen name="default.bold">16sp</dimen>
+    <dimen name="large.size">17sp</dimen>
+
+</resources>
